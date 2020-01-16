@@ -1,0 +1,66 @@
+/* COLOR VARIABLES */
+:root {
+  --color-primary-blue: #242F40;
+  --color-primary-white: #FCFCFF;
+  --color-secondary-yellow: #E4BB97;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-primary-white);
+}
+
+nav {
+  background-color: var(--color-primary-blue);
+  font-family: 'Roboto';
+  font-size: 21px;
+}
+
+nav a {
+  color: var(--color-primary-white);
+}
+
+.bg-pri {
+  background-color: var(--color-primary-blue);
+}
+
+.bg-sec {
+  background-color: var(--color-secondary-yellow);
+}
+
+.bg-btn {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-blue);
+  border-color: var(--color-primary-blue);
+}
+
+.bg-btn:hover {
+  color: var(--color-primary-blue);
+  background-color: var(--color-primary-white);
+  border-color: var(--color-secondary-yellow);
+}
+
+.contact_icon {
+  font-size: 100px;
+  color: var(--color-secondary-yellow);
+}
+
+.contact_text {
+  color: var(--color-secondary-yellow);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--color-secondary-yellow);
+}
+
+.sm_icon {
+  font-size: 30px;
+  color: var(--color-primary-white);
+}
+footer h4 {
+  color: var(--color-primary-white);
+}
